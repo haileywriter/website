@@ -1,0 +1,252 @@
+body{
+    font-family: 'Source Pro Code';
+}
+
+/*Affects Throughout Code */
+/* background-color: #610094; */
+.colored-section{
+    background-color: #1e7cbb;
+    color: white; 
+
+}
+
+h3{
+    font-family: 'Cinzel';
+
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+/* Nav bar */
+#title{
+    /* background-color:#000000;  */
+    background-color: #1a1919;
+    color:#ffffff;
+}
+
+.container-fluid{
+    padding: 1% 10%;
+}
+
+.container-flow{
+    padding: 1% 5%;
+}
+
+.navbar-brand {
+    font-family: 'Cinzel';
+    font-size: 2.5rem;
+    /* color: #393E46; */
+    color:#000000;
+}
+
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+
+/* Top Book Section */
+#top-book{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-image: url('../images/background-jensen.jpg');
+    background-repeat: no-repeat;
+    background-size: auto; 
+    color: white; 
+}
+
+.title-img{
+    width: 90%;
+}
+
+.tb-text{
+    position: relative;
+    /* right: 40px; */
+    padding-top: 20px;
+    padding-bottom:20px; 
+    /* padding-left: 60px; */
+    /* background-color: rgba(68, 68, 68, 0.5); */
+    
+} 
+
+.tester{
+    background-color: rgba(68, 68, 68, 0.5);
+    /* padding-top: 20px;
+    padding-bottom:20px;  */
+    padding: 20px;
+    
+}
+
+.text-img{
+    width: 100%;
+}
+
+
+.big-heading{
+    font-family: 'Cinzel';
+    line-height: 1.5;
+    font-size: 2.5rem;
+}
+
+.mid-heading{
+    font-family: 'Source Sans Pro';
+    padding-bottom: 15px;
+    font-size: 1.5rem;
+};
+
+.lbutton{
+    font-family: 'Montserrat';
+    
+}
+
+.download-button{
+    font-family: 'Montserrat';
+
+}
+/* 
+#book-preview {
+    width: 100%;
+} */
+
+.book-preview-img {
+    width: 100%;
+    height: auto;
+}
+
+/* All Books Section  */
+#all-books {
+    padding: 7% 15%;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.feature-img{
+    width: 75%;
+}
+
+.spacing{
+    margin-bottom: 1rem;
+}
+
+
+/* News Section */
+.news-headline{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    /* padding: 5%; */
+    
+}
+
+.middle-heading{
+    padding-bottom: 10px;
+}
+
+
+/* Connect on Socials  */
+#social {
+    text-align: center;
+    color: black;
+
+}
+
+.social-heading{
+    padding-top: 80px;
+}
+
+.icon{
+    color: #545455;
+    padding: 20px 20px 80px 20px;
+}
+
+
+#footer{
+    background-color: #000000;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    color: rgb(192, 191, 191);
+    text-align: center;
+}
+
+p{
+    font-family: 'Source Sans Pro';
+    font-size: 1.5rem;
+}
+
+.footer{
+    font-size: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 1200px){
+    .big-heading{
+        font-size: 2rem;
+    }
+
+    .mid-heading{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 1028px){
+    #top-book{
+        text-align: center;
+    } 
+
+    .title-img{
+        width: 50%;
+    }
+
+    .big-heading{
+        font-size: 2rem;
+    }
+
+    .mid-heading{
+        font-size: 1.5rem;
+    }
+
+    .tb-text{
+        position: static;
+        
+    }
+
+    .feature-img{
+        width: 65%;
+    }
+}
+
+
+
+/* .social-text{
+    color: white;
+    font-family: 'Cinzel';
+} */
+
+/*
+.news-headline{
+    /* background-color: #4982b8;
+    color: white;
+    text-align: center;
+    padding: 5%;
+    
+}
+
+.middle-heading{
+    padding: 2% 15%;
+}
+
+.social-text{
+    color: white;
+    font-family: 'Cinzel';
+} 
+
+*/
