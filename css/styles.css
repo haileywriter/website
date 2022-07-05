@@ -87,12 +87,20 @@ h2{
     width: 100%;
 }
 
+.big-head{
+    font-family: 'Cinzel';
+    line-height: 1.5;
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+    padding-top: 20px;
+};
 
 .big-heading{
     font-family: 'Cinzel';
     line-height: 1.5;
     font-size: 2.5rem;
-}
+};
+
 
 .mid-heading{
     font-family: 'Source Sans Pro';
@@ -100,10 +108,24 @@ h2{
     font-size: 1.5rem;
 };
 
+.mid-heading-summary{
+    font-family: 'Source Sans Pro';
+    /* padding-bottom: 15px; */
+    font-size: 1.5rem;
+    text-align: left;
+};
+
+
+
 .lbutton{
     font-family: 'Montserrat';
     
 }
+
+.abutton{
+    font-family: 'Montserrat';  
+};
+
 
 .download-button{
     font-family: 'Montserrat';
@@ -131,6 +153,10 @@ h2{
 
 .feature-img{
     width: 75%;
+}
+
+.feature-img-2{
+    width: 100%;
 }
 
 .spacing{
@@ -186,6 +212,12 @@ p{
     font-size: 1rem;
 }
 
+
+#all-z-2{
+    background-color: #000000;
+    padding: 7% 15%;
+}
+
 /* Responsive */
 @media (max-width: 1200px){
     .big-heading{
@@ -221,6 +253,14 @@ p{
 
     .feature-img{
         width: 65%;
+    }
+
+    .feature-img-2{
+        width: 65%;
+    }
+
+    .img-center{
+        text-align: center;
     }
 }
 
