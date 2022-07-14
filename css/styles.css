@@ -97,6 +97,7 @@ h2{
     font-size: 2.5rem;
     padding-bottom: 20px;
     padding-top: 20px;
+    text-align: center;
 };
 
 .big-heading{
@@ -105,6 +106,12 @@ h2{
     font-size: 2.5rem;
 };
 
+.mid-headz-2{
+    font-family: 'Source Sans Pro';
+    padding-bottom: 15px;
+    font-size: 1.5rem;
+    text-align: center;
+};
 
 .mid-heading{
     font-family: 'Source Sans Pro';
@@ -147,7 +154,8 @@ h2{
 
 /* All Books Section  */
 #all-books {
-    padding: 7% 15%;
+    padding-left:15%;
+    padding-right: 15%;
 }
 
 .feature-box {
@@ -257,6 +265,10 @@ hr {
     }
 }
 
+.center-text{
+    text-align: center;
+}
+
 @media (max-width: 1028px){
     #top-book{
         text-align: center;
@@ -279,6 +291,10 @@ hr {
         
     }
 
+    .tester{
+        font-size: 1.5rem;
+    }
+
     .feature-img{
         width: 65%;
     }
@@ -289,6 +305,26 @@ hr {
 
     .img-center{
         text-align: center;
+    }
+
+    .center-text{
+        font-size: 3rem;
+    }
+
+    .social-text{
+        font-size: 3rem;
+    }
+
+    .social-heading{
+        font-size: 3rem;
+    }
+
+    .middle-heading{
+        font-size:  1.5rem;
+    }
+
+    .footer{
+        font-size: 1.2rem;
     }
 }
 
