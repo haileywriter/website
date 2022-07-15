@@ -255,6 +255,7 @@ hr {
  
 
 /* Responsive */
+
 @media (max-width: 1200px){
     .big-heading{
         font-size: 2rem;
@@ -269,7 +270,18 @@ hr {
     text-align: center;
 }
 
-@media (max-width: 1028px){
+.dropdown-item{
+    font-size: 1.3rem;
+}
+
+.nav-link{
+    font-size: 1.3rem;
+}
+
+
+
+@media (max-width: 1028px){ 
+
     #top-book{
         text-align: center;
     } 
@@ -293,6 +305,10 @@ hr {
 
     .tester{
         font-size: 1.5rem;
+    }
+
+    .h4font{
+        font-size: 2rem;
     }
 
     .feature-img{
@@ -325,6 +341,14 @@ hr {
 
     .footer{
         font-size: 1.2rem;
+    }
+
+    .nav-link{
+        font-size: 1.5rem;
+    }
+
+    .dropdown-item{
+        font-size: 1.5rem;
     }
 }
 
