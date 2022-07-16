@@ -130,7 +130,6 @@ h2{
 
 .lbutton{
     font-family: 'Montserrat';
-    
 }
 
 .abutton{
@@ -140,6 +139,7 @@ h2{
 
 .download-button{
     font-family: 'Montserrat';
+    /* font-size: 4rem; */
 
 }
 /* 
@@ -303,9 +303,9 @@ hr {
         
     }
 
-    .tester{
-        font-size: 1.5rem;
-    }
+    /* .tester{
+        font-size: 20rem;
+    } */
 
     .h4font{
         font-size: 2rem;
@@ -335,9 +335,11 @@ hr {
         font-size: 3rem;
     }
 
-    .middle-heading{
+    
+    /* .middle-heading{
         font-size:  1.5rem;
-    }
+    } */
+    
 
     .footer{
         font-size: 1.2rem;
@@ -350,6 +352,16 @@ hr {
     .dropdown-item{
         font-size: 1.5rem;
     }
+
+     .mid-heading-summary{
+        font-family: 'Source Sans Pro';
+        font-size: 1.7rem;
+    }
+
+    .sub-heading{
+        font-size: 2rem;
+    }
+
 }
 
 
