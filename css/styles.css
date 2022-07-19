@@ -258,7 +258,7 @@ hr {
 
 /* Responsive */
 
-@media (max-width: 1200px){
+@media screen and (max-width: 1200px){
     .big-heading{
         font-size: 2rem;
     }
