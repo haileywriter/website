@@ -258,7 +258,7 @@ hr {
 
 /* Responsive */
 
-@media screen and (max-width: 1200px){
+@media (max-width: 1200px){
     .big-heading{
         font-size: 2rem;
     }
@@ -283,6 +283,16 @@ hr {
 .text{
     font-family:Arial, Helvetica, sans-serif;
     font-size: 18px;
+}
+
+
+
+ /* Skills  */
+ 
+ .skill-row{
+    width: 80%;
+    margin: 50px auto 75px auto;
+    text-align: center;
 }
 
 
