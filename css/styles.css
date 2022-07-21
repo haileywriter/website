@@ -133,10 +133,11 @@ h2{
     font-family:'Montserrat';
 } */
 
-.lbutton {
-    font-family: 'Montserrat';
-    font-size: 3rem;
+.abutton {
+    text-align: center;
 }
+
+
 
 
 /* 
@@ -240,6 +241,10 @@ p{
     /* padding: 7% 15%; */
 
     /* border: 5px solid #969696; */
+}
+
+.img-center{
+    text-align: center;
 }
 
 
