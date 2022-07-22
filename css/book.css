@@ -5,14 +5,6 @@ body {
 
 
 
-/*Affects Throughout Code */
-/* background-color: #610094; */
-.colored-section{
-    background-color: #3d3d3d;
-    color: white; 
-
-}
-
 h1{
     font-family: 'Cinzel';
 }
@@ -58,45 +50,7 @@ h2{
     font-size: 1.2rem;
 }
 
-
-
-/* Top Book Section */
-#top-book{
-    padding-top: 40px;
-    padding-bottom: 40px;
-    /*background-image: url('../images/background-jensen.jpg'); */ 
-    /* background-color:#7c7c7c; */
-    background-repeat: no-repeat;
-    background-size: auto; 
-    /*color: white; */
-
-}
-
-.title-img{
-    width: 75%;
-}
-
-.tb-text{
-    position: relative;
-    /* right: 40px; */
-    /* padding-top: 20px; */
-    padding-bottom:20px; 
-    /* padding-left: 60px; */
-    /* background-color: rgba(68, 68, 68, 0.5); */
-    
-} 
-
-
-.text-img{
-    width: 100%;
-}
-
-
-.big-heading{
-    font-family: 'Cinzel';
-    line-height: 1.5;
-    font-size: 2.5rem;
-};
+/* add img center */
 
 .big-head{
     font-family: 'Cinzel';
@@ -107,13 +61,16 @@ h2{
     text-align: center;
 };
 
+.middle-heading{
+    padding-bottom: 10px;
+}
+
+
 
 
 .abutton {
     text-align: center;
 }
-
-
 
 
 /* All Books Section  */
@@ -147,10 +104,6 @@ h2{
     padding-bottom: 80px;
     /* padding: 5%; */
     
-}
-
-.middle-heading{
-    padding-bottom: 10px;
 }
 
 
@@ -250,6 +203,7 @@ hr {
 
 
 
+
 /* Responsive */
 
 @media (max-width: 1000px){ 
@@ -299,6 +253,10 @@ hr {
         font-size: 3rem;
     }
 
+    .sub-heading{
+        font-size: 2rem;
+    }
+
     .social-text{
         font-size: 3rem;
     }
@@ -307,11 +265,6 @@ hr {
         font-size: 3rem;
     }
 
-    
-    /* .middle-heading{
-        font-size:  1.5rem;
-    } */
-    
 
     .footer{
         font-size: 1.2rem;
@@ -326,8 +279,10 @@ hr {
         font-size: 1.7rem;
     }
 
-    .sub-heading{
-        font-size: 2rem;
-    }
-
 }
+
+
+
+
+
+

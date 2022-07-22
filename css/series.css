@@ -4,28 +4,25 @@ body {
 }
 
 
-
-/*Affects Throughout Code */
-/* background-color: #610094; */
-.colored-section{
-    background-color: #3d3d3d;
-    color: white; 
-
-}
-
 h1{
     font-family: 'Cinzel';
+}
+
+h2{
+    font-size: 2.5rem;
+    font-family: 'CInzel';
 }
 
 h3{
     font-family: 'Cinzel';
 }
 
+p{
 
-h2{
-    font-size: 2.5rem;
-    font-family: 'CInzel';
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
 }
+
 
 /* Nav bar */
 #title{
@@ -54,49 +51,14 @@ h2{
     padding: 0 18px;
 }
 
+.dropdown-item{
+    font-size: 1.3rem;
+}
+
 .nav-link{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
-
-
-/* Top Book Section */
-#top-book{
-    padding-top: 40px;
-    padding-bottom: 40px;
-    /*background-image: url('../images/background-jensen.jpg'); */ 
-    /* background-color:#7c7c7c; */
-    background-repeat: no-repeat;
-    background-size: auto; 
-    /*color: white; */
-
-}
-
-.title-img{
-    width: 75%;
-}
-
-.tb-text{
-    position: relative;
-    /* right: 40px; */
-    /* padding-top: 20px; */
-    padding-bottom:20px; 
-    /* padding-left: 60px; */
-    /* background-color: rgba(68, 68, 68, 0.5); */
-    
-} 
-
-
-.text-img{
-    width: 100%;
-}
-
-
-.big-heading{
-    font-family: 'Cinzel';
-    line-height: 1.5;
-    font-size: 2.5rem;
-};
 
 .big-head{
     font-family: 'Cinzel';
@@ -105,14 +67,13 @@ h2{
     padding-bottom: 20px;
     padding-top: 20px;
     text-align: center;
-};
-
-
-
-.abutton {
-    text-align: center;
 }
 
+.middle-heading{
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: 'Montserrat';
+}
 
 
 
@@ -131,9 +92,6 @@ h2{
     width: 75%;
 }
 
-.feature-img-2{
-    width: 100%;
-}
 
 .spacing{
     margin-bottom: 1rem;
@@ -149,10 +107,6 @@ h2{
     
 }
 
-.middle-heading{
-    padding-bottom: 10px;
-}
-
 
 /* Connect on Socials  */
 #social {
@@ -164,6 +118,7 @@ h2{
 .social-heading{
     padding-top: 80px;
 }
+
 
 .icon{
     color: #545455;
@@ -180,47 +135,10 @@ h2{
 }
 
 
-
-p{
-
-    font-family: 'Montserrat';
-    font-size: 1.2rem;
-}
-
-
-
 .footer{
     font-size: 1rem;
 }
 
-.title-header{
-    font-size: 3.5rem;
-    text-align: center;
-}
-
-.griz-container{
-    padding-left: 15%;
-    padding-right: 15%;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-    /* padding: 7% 15%; */
-
-    /* border: 5px solid #969696; */
-}
-
-.img-center{
-    text-align: center;
-}
-
-
-#all-z-2{
-    background-color: #000000;
-    padding: 7% 15%;
-}
 
 hr {
     border-top: 3px double #252424;
@@ -231,23 +149,16 @@ hr {
     text-align: center;
 }
 
-.dropdown-item{
-    font-size: 1.3rem;
-}
 
-.nav-link{
-    font-size: 1.3rem;
-}
-
-.text{
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 18px;
-}
 
 .news-p{
     text-align: center;
 }
 
+
+.sub-heading{
+    font-size: 2rem;
+}
 
 
 /* Responsive */
@@ -264,35 +175,14 @@ hr {
         width: 50%;
     }
 
-    .big-heading{
+    .big-headi{
         font-size: 2rem;
+        text-align: center;
     }
 
-
-
-    .tb-text{
-        position: static;
-        
-    }
-
-    /* .tester{
-        font-size: 20rem;
-    } */
-
-    .h4font{
-        font-size: 2rem;
-    }
 
     .feature-img{
         width: 65%;
-    }
-
-    .feature-img-2{
-        width: 65%;
-    }
-
-    .img-center{
-        text-align: center;
     }
 
     .center-text{
@@ -307,11 +197,6 @@ hr {
         font-size: 3rem;
     }
 
-    
-    /* .middle-heading{
-        font-size:  1.5rem;
-    } */
-    
 
     .footer{
         font-size: 1.2rem;
@@ -324,10 +209,6 @@ hr {
 
     .dropdown-item{
         font-size: 1.7rem;
-    }
-
-    .sub-heading{
-        font-size: 2rem;
     }
 
 }
